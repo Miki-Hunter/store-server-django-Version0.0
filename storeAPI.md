@@ -548,7 +548,7 @@ Post
 
 |   参数   | 是否必选 |  类型  |  说明  |
 | :------: | :------: | :----: | :----: |
-| categoryID |    非    | int | 类别ID |
+| categoryID |    非    | [] | 类别ID |
 | pageSize |    是    | int | 页码大小 |
 | currentPage |    是    | int | 当前页(设置1为首页即可) |
 
