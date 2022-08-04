@@ -12,3 +12,5 @@
 
 	如 	"order_time": 1659522650709,  使用的是毫秒级时间戳
 		 "order_id": 11659522650709,  则是 user_id  +  order_time
+
+5、 [完整API文档](https://github.com/Miki-Hunter/-store-server-django/blob/main/storeAPI.md)
