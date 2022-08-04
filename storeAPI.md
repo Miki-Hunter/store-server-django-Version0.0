@@ -832,18 +832,18 @@ Post
 	[{ productID: 1,  price: 1599, num: 1}]
 
 
-​	
-​	购物车信息的返回：
-​	{
-​	    "id": 4,
-​	    "productID": 36,
-​	    "productName": "Redmi K30",
-​	    "productImg": "public/imgs/phone/Redmi-k30.png",
-​	    "price": 1599,
-​	    "num": 1,
-​	    "maxNum": 5,
-​	    "check": false
-​	},
+	
+	购物车信息的返回：
+	{
+	    "id": 4,
+	    "productID": 36,
+	    "productName": "Redmi K30",
+	    "productImg": "public/imgs/phone/Redmi-k30.png",
+	    "price": 1599,
+	    "num": 1,
+	    "maxNum": 5,
+	    "check": false
+	},
 
 **返回示例：**
 
@@ -986,6 +986,7 @@ Post
 ### 6.3  删除收藏
 
 (由于前端界面采用卡片式布局，删除选择了逐一删除，可考虑改为多选)
+
 **请求URL：**
 
 ```
