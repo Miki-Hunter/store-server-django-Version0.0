@@ -16,7 +16,6 @@ class Login(viewsets.ModelViewSet):
     queryset = Users.objects.all()
     serializer_class = UserSerializer
     permission_classes = []  # 跳过权限的登录
-    http_method_names = ['post']  # 允许的请求方法
     def create(self, request, *args, **kwargs):
         try:
             userName = request.data['userName']
@@ -36,7 +35,6 @@ class IsRegister(viewsets.ModelViewSet):
     queryset = Users.objects.all()
     serializer_class = UserSerializer
     permission_classes = []  # 跳过权限的登录
-    http_method_names = ['post']  # 允许的请求方法
 
     def create(self, request, *args, **kwargs):
         try:
@@ -53,7 +51,6 @@ class Register(viewsets.ModelViewSet):
     queryset = Users.objects.all()
     serializer_class = UserSerializer
     permission_classes = []  # 跳过权限的登录
-    http_method_names = ['post']  # 允许的请求方法
 
     def create(self, request, *args, **kwargs):
         print(request.data)
