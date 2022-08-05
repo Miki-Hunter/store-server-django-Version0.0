@@ -62,7 +62,7 @@ class Register(viewsets.ModelViewSet):
                 return Response({'code': "004", 'msg': '用户名已经存在，不能注册'})
             else:
                 password = request.data['password']
-                userPhoneNumber = request.data['userPhoneNumber']
+                # userPhoneNumber = request.data['userPhoneNumber']
                 userInfo = Users(userName=request.data['userName'])
                 userInfo.password = password
                 # userInfo.userPhoneNumber = userPhoneNumber  # 用户可以加上userPhoneNumber
